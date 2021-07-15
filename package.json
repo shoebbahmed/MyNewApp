@@ -1,0 +1,28 @@
+{
+  "name": "MyNewApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoebbahmed/MyNewApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoebbahmed/MyNewApp/issues"
+  },
+  "homepage": "https://github.com/shoebbahmed/MyNewApp#readme",
+  "devDependencies": {
+    "ui5-middleware-simpleproxy": "^0.7.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy"
+    ]
+  }
+}
